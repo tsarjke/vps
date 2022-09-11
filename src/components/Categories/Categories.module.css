@@ -1,0 +1,13 @@
+.categories {
+	margin: 0 0 20px 0;
+}
+
+.categoriesSelect {
+	max-width: none;
+}
+
+@media (min-width: 1024px) {
+	.categoriesSelect {
+		max-width: 25%;
+	}
+}

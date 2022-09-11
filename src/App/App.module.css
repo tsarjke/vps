@@ -1,0 +1,27 @@
+.content {
+	width: 100%;
+	flex: 1 1;
+}
+
+.pageContainer {
+	padding: 17px 16px 34px;
+}
+
+.navigation {
+	padding: 0 0 15px 0;
+	text-transform: uppercase;
+	color: #062436;
+}
+
+.pageLabel {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+.pageTitle {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+}
