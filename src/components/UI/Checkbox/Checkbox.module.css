@@ -1,0 +1,33 @@
+.btnsWrapper {
+	display: inline-flex;
+	border-radius: 10px;
+	background: #fff;
+	border: 1px solid #3DBDF6;
+}
+
+.disabled {
+	opacity: 0.6;
+}
+
+.disabled .variant {
+	cursor: auto;
+}
+
+.variant {
+	color: #3DBDF6;
+	padding: 2px 10px;
+	border-radius: 10px;
+	background: transparent;
+}
+
+.checked {
+	background: #3DBDF6;
+	color: #fff
+}
+
+.title {
+	font-size: 12px;
+	line-height: 15px;
+	color: #62686C;
+	margin: 0 0 8px 0;
+}
