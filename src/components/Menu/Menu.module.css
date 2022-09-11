@@ -1,0 +1,83 @@
+.closedNav {
+	position: relative;
+	height: 16px;
+}
+
+.openedNav {
+	position: relative;
+	width: 211px;
+}
+
+.container {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 211px;
+	padding: 20px 0;
+	background: #062436;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 40px 0;
+	padding: 0 20px;
+}
+
+.menuBtn {
+	width: 20px;
+	height: 16px;
+	background: transparent;
+	position: absolute;
+	z-index: 11;
+	top: 22px;
+	left: 170px;
+}
+
+.menuBtn div {
+	height: 2px;
+	width: 20px;
+	background: #fff;
+	border-radius: 1px;
+}
+
+.onlyMenuBtn {
+	position: absolute;
+	top: 22px;
+	left: 16px;
+}
+
+.onlyMenuBtn div {
+	background: #062436;
+}
+
+.menuItem {
+	/* padding: 10px 20px; */
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #fff;
+	cursor: pointer;
+}
+
+.activeMenuItem .dropDownLabel{
+	background: #3DBDF6 !important;
+}
+
+.menuBtn div:not(:last-child) {
+	margin: 0 0 5px 0;
+}
+
+.dropDownLabel:hover,
+.dropDownItem:hover {
+	background: #0A3145;
+}
+
+@media (min-width: 768px) {
+	.container {
+		position: static;
+		height: 100%;
+	}
+}

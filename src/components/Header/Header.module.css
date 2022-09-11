@@ -1,0 +1,53 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	background: #F5F5F5;
+	padding: 20px 16px;
+}
+
+.headerInfo {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	line-height: 15px;
+	color: #7A8185;
+}
+
+.orderCounter {
+	margin: 0 15px 0 0;
+	color: #000;
+}
+
+.amount {
+	margin: 0 15px 0 0;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 0;
+}
+
+.noticeIcon {
+	margin: 0 8px 0 0;
+}
+
+.logoutBtn {
+	background: transparent;
+	font-size: inherit;
+	color: inherit;
+}
+
+@media (min-width: 568px) {
+	.orderCounter {
+		margin: 0 32px 0 0;
+	}
+	
+	.amount {
+		margin: 0 32px 0 0;
+	}
+	
+	.user {
+		margin: 0 24px 0 0;
+	}
+}
